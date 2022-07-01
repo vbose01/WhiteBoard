@@ -1,0 +1,127 @@
+
+body
+{
+  font-family: "Raleway";
+}
+
+.name
+{
+  position: absolute;
+  font-weight: 500;
+  font-size: 2rem;
+  top: 20px;
+  border: none;
+  background: none;
+}
+
+.board-header
+{
+  background-color: white;
+  padding: 2% 5% 1%;
+  margin-bottom: 20px;
+}
+
+.header-buttons
+{
+ margin-left: 80%;
+}
+
+.header-buttons button
+{
+  margin: 5px 5px;
+}
+
+
+.download:hover
+{
+  transform: scale(1.2);
+}
+
+.btn:hover
+{
+  transform: scale(1.1);
+}
+
+.my-canvas
+{
+  margin: 0 20%;
+}
+
+#board
+{
+  background-color: white;
+  border: 2px solid #c2c2c2;
+}
+
+.toolbox
+{
+  background-color: white;
+  border: 5px solid #c2c2c2;
+  border-radius: 30px;
+  width: 70px;
+  height: 500px;
+  position: fixed;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbox-cover
+{
+  margin: 10px;
+}
+
+.toolbox button
+{
+  margin: 10px;
+}
+
+.brush-size
+{
+  margin: 0;
+}
+
+.palette
+{
+  background: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+}
+
+.palette:hover
+{
+  transform: scale(1.1);
+}
+
+.board-footer
+{
+  font-family: "Raleway";
+  top: 1920px;
+  padding: 50px 0;
+  text-align: center;
+}
+
+@media(max-height: 648px)
+{
+  .toolbox
+  {
+    left: 25%;
+    bottom: 10%;
+    top: auto;
+    height: 70px;
+    width: 500px;
+    flex-direction: row;
+  }
+}
+
+@media(max-width: 1317px)
+{
+
+  #board
+  {
+    width: 100%;
+  }
+}
